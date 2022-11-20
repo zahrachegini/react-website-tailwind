@@ -26,7 +26,7 @@ const Navbar = () => {
           </button>
           <button className="px-8 py-3">Sign Out</button>
         </div>
-        <div className="md:hidden" onClick={handleClick}>
+        <div className="md:hidden mr-4" onClick={handleClick}>
           {!nav ? <Bars3Icon className="w-8" /> : <XMarkIcon className="w-8" />}
         </div>
       </div>
